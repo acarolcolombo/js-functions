@@ -165,7 +165,12 @@ console.log(difference);
  * Console.log your result.  
 */
 
+function checkProduct(){
+    return sum * product
+}
 
+var result = checkProduct();
+console.log(result);
 
 /*
  * #9
