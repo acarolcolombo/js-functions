@@ -169,8 +169,8 @@ function checkProduct(){
     return sum * product
 }
 
-var result = checkProduct();
-console.log(result);
+var result1 = checkProduct();
+console.log(result1);
 
 /*
  * #9
@@ -182,6 +182,12 @@ console.log(result);
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
+function checkQuotient(){
+    return product * quotient;
+}
+
+var result2 = checkQuotient();
+console.log(result2);
 
 /*
  * Declare three variables
