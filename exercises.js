@@ -331,7 +331,11 @@ console.log(allCaps("believe you can and you're halfway there"));
  * Console.log your result.
 */
 
+function oneCap(str){
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
+console.log(oneCap("believe you can and you're halfway there"));
 
 /*
  * #17
