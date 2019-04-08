@@ -317,7 +317,11 @@ console.log(shoeSizeResult);
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  
+function allCaps(str){
+    return str.toUpperCase();
+}
 
+console.log(allCaps("believe you can and you're halfway there"));
 
 /*
  * #16
