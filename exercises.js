@@ -208,8 +208,24 @@ console.log(result2);
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+var bango3 = 7;
+var bango4 = 12;
+var bango5 = 3;
 
+// function addThenSubtract(num1, num2, num3){
+//     return (num1 + num2)- num3;
+// }
 
+// var addThenSubstractResult = addThenSubtract(bango3, bango4, bango5);
+// console.log(addThenSubstractResult);
+
+function addThenSubtract(num1,num2,num3){
+    var sum = add(num1, num2);
+    return subtract(sum, num3);
+    }
+
+var addThenSubtractResult = addThenSubtract(bango3, bango4, bango5);
+console.log(addThenSubtractResult);
 
 /*
  * #11
@@ -224,8 +240,13 @@ console.log(result2);
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+function multiplyThenDivide(num1, num2, num3){
+    var product = multiply(num1, num2);
+    return divide (product, num3); 
+}
 
-
+var multiplyThenDivideResult = multiplyThenDivide(bango3, bango4, bango5);
+console.log(multiplyThenDivideResult);
 
 /*
  * #12
